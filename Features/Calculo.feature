@@ -3,7 +3,6 @@ Feature: Calculo
 	@calculo
 	Scenario Outline: Calculo com os Operadores
 		Given Que a calculadora esteja ligada
-		Examples:
 			| primeiroNumero | segundoNumero | operacao | resultado |
 			| 3              | 2             | -        | 1         | 
 			| 8              | 3             | -        | 5         |

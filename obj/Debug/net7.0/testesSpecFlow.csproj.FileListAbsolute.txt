@@ -112,3 +112,4 @@ C:\Users\josel\Documents\GitHub\testesSpecFlow\bin\Debug\net7.0\nunit.engine.api
 C:\Users\josel\Documents\GitHub\testesSpecFlow\bin\Debug\net7.0\nunit.engine.core.dll
 C:\Users\josel\Documents\GitHub\testesSpecFlow\bin\Debug\net7.0\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\josel\Documents\GitHub\testesSpecFlow\bin\Debug\net7.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\josel\Documents\GitHub\testesSpecFlow\bin\Debug\net7.0\specflow.json

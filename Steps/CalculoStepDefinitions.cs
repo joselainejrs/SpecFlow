@@ -1,10 +1,9 @@
-using System;
 using TechTalk.SpecFlow;
 
 namespace Calculo.Steps
 {
     [Binding]
-    public sealed class CalculoStepDefinitions
+    public class CalculoStepDefinitions
     {
         private readonly ScenarioContext calculosOperadoresAritmeticos;
 
@@ -14,10 +13,13 @@ namespace Calculo.Steps
         }
 
         [Given(@"Que a calculadora esteja ligada")]
-        public void GivenQueacalculadoraestejaligada()
+        public void GivenQueacalculadoraestejaligada(Table table)
         {
             calculosOperadoresAritmeticos.Pending();
         }
-
+        
     }
 }
+
+
+

@@ -4,7 +4,7 @@ using TechTalk.SpecFlow;
 namespace Cadastro.Steps
 {
     [Binding]
-    public sealed class CadastroStepDefinitions
+    public class CadastroStepDefinitions
     {
         private readonly ScenarioContext CadastroContext;
 
@@ -13,8 +13,20 @@ namespace Cadastro.Steps
             CadastroContext = scenarioContext;
         }
 
+        [Given(@"Na Cadastro")]
+        public void GivenNaCadastro()
+        {
+            CadastroContext.Pending();
+        }
+
+        [Then(@"Que realize o cadastro")]
+        public void ThenQuerealizeocadastro(Table table)
+        {
+            CadastroContext.Pending();
+        }
+
         [Given(@"Que esteja na tela de Cadastro")]
-        public void GivenQueestejanateladeCadastro()
+        public void GivenQueestejanateladeCadastro(Table table)
         {
             CadastroContext.Pending();
         }
