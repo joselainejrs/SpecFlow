@@ -41,13 +41,13 @@ $ dotnet new specflowproject
 ```
 O gera um projeto do zero com o comando anterior ele vem "com xUnit como provedor de teste de unidade e direcionamento ao .NET Core 3.1. Um pacote completo com estrutura pré-definidas, que auxiliar no desenvolvimento".
 <p >
-  <img  src="https://github.com/joselainejrs/testesSpecFlow/blob/main/img/Untitled%20(3).png.png" width="600px" alt="Imagem">
+  <img  src="https://github.com/joselainejrs/testesSpecFlow/blob/main/img/Untitled%20(3).png" width="600px" alt="Imagem">
 </p>
 
 Mas se deixarmos dessa maneira, haverá erros no terminal. O erro apresentado será sobre a versão do .NET Core.
 No arquivo "testesSpecFlow.csproj", vamos alterar no campo "TargetFramework" a versão.
 <p >
-  <img  src="https://github.com/joselainejrs/testesSpecFlow/blob/main/img/Untitled%20(4).png.png" width="600px" alt="Imagem">
+  <img  src="https://github.com/joselainejrs/testesSpecFlow/blob/main/img/Untitled%20(4).png" width="600px" alt="Imagem">
 </p>
 
 Vou colocar versão "net7.0", para que rode na versão atual do .NET Core.
